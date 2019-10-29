@@ -1,0 +1,35 @@
+header {
+    background: teal
+}
+
+.container{
+  text-align: left;
+}
+
+nav {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  float: right;
+  font-weight : bold ;
+  
+}
+
+a {
+    padding: 1.5em;
+    text-transform: uppercase;
+    font-size: .8em;
+    color: 	#4B0082;
+}
+
+a:hover {
+    background-color: rgb(53, 53, 53);
+}

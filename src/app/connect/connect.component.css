@@ -1,0 +1,29 @@
+body{
+    margin: 35px;
+}
+
+h1{
+    color: purple;
+    font-size: 50pt;
+}
+
+.header {
+    text-align: center;
+}
+
+.feedback {
+    float: left;
+    width: 50%;
+}
+
+.information {
+    float: right;
+    width: 50%;
+    
+    
+}
+
+p{
+    color: teal;
+    font-size: 24pt;
+}

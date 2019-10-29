@@ -1,0 +1,22 @@
+body {
+    margin: 35px;
+}
+
+.start {
+    text-align: right;
+}
+
+h2{
+    color: purple;
+    font-size: 42pt;
+}
+
+h3 {
+    color: teal;
+    
+}
+
+p{
+    color: teal;
+    font-size: 24pt;
+}
