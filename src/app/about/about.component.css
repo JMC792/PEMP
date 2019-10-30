@@ -2,8 +2,25 @@ body {
     margin: 35px;
 }
 
+.about {
+    text-align: center;
+    font-size: 24pt;
+}
+
+
+
+.vision {
+    text-align: left;
+    font-size: 24pt ;    
+}
+
 .start {
     text-align: right;
+    font-size: 24pt ;
+}
+
+.team {
+    text-align: left ;
 }
 
 h2{
@@ -16,7 +33,3 @@ h3 {
     
 }
 
-p{
-    color: teal;
-    font-size: 24pt;
-}
