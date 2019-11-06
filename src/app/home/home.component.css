@@ -241,7 +241,7 @@ nav a:focus {
 	background-size: cover;
 	background-position: center;
 	padding: 10em 0;
-	color: #FFF;
+	color: black;
 }
 
 @media (min-width: 60rem) {
@@ -297,7 +297,7 @@ nav a:focus {
 	}
 
 	.home-about {
-		background-image: url(/src/assets/img/who-we-are.png);
+		background-image: url('/src/assets/img/who-we-are.png');
 		background-repeat: no-repeat;
 		padding-bottom: 10em;
 	}
