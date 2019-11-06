@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
-
 * {
 	box-sizing: border-box;
 	transition: all ease-in-out 250ms;
@@ -9,7 +8,7 @@ body {
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	background-image: url(/src/assets/img/hero-bg.jpeg);;
+	background-image: url(/src/assets/img/hero-bg.jpeg);
 }
 
 img {
@@ -23,14 +22,11 @@ img {
 	margin: 0 auto;
 }
 
-.clearfix::after,
-section::after,
-footer::after {
+.clearfix::after, section::after, footer::after {
 	content: '';
 	display: block;
 	clear: both;
 }
-
 
 /* Column system
 =================== */
@@ -49,35 +45,25 @@ footer::after {
 	float: left;
 }
 
-
 @media (min-width: 40rem) {
-
 	[class^=col-] {
 		float: left;
 		padding: 0 .5em;
 		margin-top: 0;
 	}
-
 	[class^=col-]:first-child {
 		padding-left: 0;
 	}
-
 	[class^=col-]:last-child {
 		padding-right: 0;
 	}
-
 	.col-3 {
 		width: 50%;
 	}
-
 	.col-1 {
 		width: 16.6666%;
 	}
 }
-
-
-
-
 
 /* typography
 =================== */
@@ -121,12 +107,10 @@ p:last-of-type {
 }
 
 @media (min-width:60rem) {
-
 	p {
 		font-size: 1.2rem;
 		line-height: 1.6;
 	}
-
 	.title {
 		font-size: 3.7rem;
 	}
@@ -160,8 +144,7 @@ p:last-of-type {
 	border-color: #31b8d4;
 }
 
-.button-accent:hover,
-.button-accent:focus {
+.button-accent:hover, .button-accent:focus {
 	background: #7700ff;
 	color: #fff;
 }
@@ -171,8 +154,7 @@ p:last-of-type {
 	border-color: #232323;
 }
 
-.button-dark:hover,
-.button-dark:focus {
+.button-dark:hover, .button-dark:focus {
 	background: #7700ff;
 	color: #fff;
 }
@@ -180,12 +162,9 @@ p:last-of-type {
 /* Parallax
 =================== */
 
-.parallax--bg,
-.parallax--box {
+.parallax--bg, .parallax--box {
 	transition: initial;
 }
-
-
 
 /* header
 =================== */
@@ -217,8 +196,7 @@ nav a {
 	font-size: .8rem;
 }
 
-nav a:hover,
-nav a:focus {
+nav a:hover, nav a:focus {
 	color: #ddd;
 }
 
@@ -226,12 +204,10 @@ nav a:focus {
 	.logo {
 		float: left;
 	}
-
 	nav {
 		float: right;
 	}
 }
-
 
 /* hero-home
 =================== */
@@ -251,14 +227,13 @@ nav a:focus {
 	}
 }
 
-
 /* hero-home
 =================== */
 
 .home-about-textbox {
 	background-color: #232323;
 	padding: 4em;
-	width: 100vw;
+	width: 500 vw;
 	margin-left: -2.5%;
 	outline: 2px solid #31b8d4;
 	outline-offset: -2.5em;
@@ -280,11 +255,9 @@ nav a:focus {
 	h1 {
 		font-size: 2rem;
 	}
-
 	.home-about-textbox {
 		padding: 5.5em;
 	}
-
 	.home-about-textbox h1 {
 		top: .6em;
 		padding: 0 .325em;
@@ -295,13 +268,11 @@ nav a:focus {
 	h1 {
 		font-size: 2.5rem;
 	}
-
 	.home-about {
 		background-image: url('/src/assets/img/who-we-are.png');
 		background-repeat: no-repeat;
 		padding-bottom: 10em;
 	}
-
 	.home-about-textbox {
 		width: 50%;
 		padding: 7em;
@@ -309,19 +280,14 @@ nav a:focus {
 		margin-left: -2.5%;
 		top: -5em;
 		text-align: left;
-		box-shadow: 0 0 4em 0 rgba(0,0,0,.3);
+		box-shadow: 0 0 4em 0 rgba(0, 0, 0, .3);
 	}
-
 	.home-about-textbox h1 {
 		top: .75em;
 		left: 6rem;
 		transform: translateX(0);
 	}
-
-
 }
-
-
 
 /* portfolio
 =================== */
@@ -346,7 +312,7 @@ nav a:focus {
 	left: 0em;
 	right: 0em;
 	color: white;
-	background: rgba(0,0,0,.6);
+	background: rgba(0, 0, 0, .6);
 	padding-bottom: 2em;
 }
 
@@ -366,16 +332,13 @@ nav a:focus {
 		width: 33.3333334%;
 		overflow: hidden;
 	}
-
 	.port-desc {
 		transform: translateY(150%);
 	}
-
 	.port-item:hover .port-desc {
 		transform: translateY(0%);
 	}
 }
-
 
 /* CTA
 =================== */
@@ -384,7 +347,6 @@ nav a:focus {
 	background-color: #31b8d4;
 	padding: 5em 0;
 }
-
 
 /* Footer
 =================== */

@@ -2,31 +2,44 @@ body {
     margin: 35px;
 }
 
-.about {
+#about {
     text-align: center;
     font-size: 24pt;
 }
 
 
 
-.vision {
+#vision {
     text-align: left;
-    font-size: 24pt ;    
+    font-size: 24pt ;
+    background-color: purple; 
+    padding: 3em ;
+    margin-left: -2.5%;
+    outline: 2px solid #31b8d4;
+    outline-offset: -2em;
+    position: static;
+    color : white ;
+    right : 50% ;
 }
 
-.start {
+
+#start {
     text-align: right;
     font-size: 24pt ;
+    background-color: teal;
+    padding: 3em;
+    outline: 2px solid;
+    outline-color: purple;
+    outline-offset: -2em;
+    left : 50% ;
+    position: static;
+    
 }
 
-.team {
+#team {
     text-align: left ;
 }
 
-h2{
-    color: purple;
-    font-size: 42pt;
-}
 
 h3 {
     color: teal;
