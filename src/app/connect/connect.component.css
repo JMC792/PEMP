@@ -16,11 +16,18 @@ h1{
 }
 
 .information {
+    position: relative ;
     float: right;
+    padding: 15px ;
     
 }
 
 p{
     color: teal;
     font-size: 24pt;
+}
+
+h2 {
+    color: grey;
+    
 }
