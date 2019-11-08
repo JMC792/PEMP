@@ -1,5 +1,6 @@
 body {
     margin: 35px;
+    background-image: url(/src/assets/img/who-we-are.png);
 }
 
 #about {
@@ -7,21 +8,18 @@ body {
     font-size: 24pt;
 }
 
-
-
 #vision {
     text-align: left;
     font-size: 24pt ;
     background-color: purple; 
     padding: 3em ;
-    margin-left: -2.5%;
     outline: 2px solid #31b8d4;
     outline-offset: -2em;
-    position: static;
+    position: realtive;
     color : white ;
-    right : 50% ;
+    width: 600px ;
+    top: 200px;
 }
-
 
 #start {
     text-align: right;
@@ -31,8 +29,11 @@ body {
     outline: 2px solid;
     outline-color: purple;
     outline-offset: -2em;
-    left : 50% ;
-    position: static;
+    position: relative;
+    width: 600px;
+    top: 100px;
+    left: 600px;
+    
     
 }
 
