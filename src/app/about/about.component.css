@@ -2,9 +2,10 @@ body {
     background-image: url(/assets/img/who-we-are.png);
 }
 
-#about {
+.about {
     text-align: center;
     font-size: 24pt;
+    color: white;
 }
 
 #vision {

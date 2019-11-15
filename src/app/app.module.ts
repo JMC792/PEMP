@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { ConnectComponent } from './connect/connect.component';
 import { FeaturesComponent } from './features/features.component';
 import { MortgageComponent } from './features/mortgage/mortgage.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MortgageComponent } from './features/mortgage/mortgage.component';
     AboutComponent,
     ConnectComponent,
     FeaturesComponent,
-    MortgageComponent
+    MortgageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

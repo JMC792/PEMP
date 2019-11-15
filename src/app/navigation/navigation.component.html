@@ -1,12 +1,29 @@
 <header>
-  <div class="container">
-    <a routerLink="/Home">PEMP</a>
-    <nav>
-      <ul>
-        <li><a routerLink="/Connect"> Connect </a></li>
-        <li><a routerLink="/Features"> Features </a></li>
-        <li><a routerLink="/About"> About </a></li>
-      </ul>
-    </nav>
+
+  <div class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+
+
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/Home"><img src="assets/img/logo4.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/Features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/Connect">Connect</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
   </div>
+
 </header>
