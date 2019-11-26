@@ -1,33 +1,9 @@
-body{
-    margin: 35px;
-}
-
-h1{
-    color: purple;
-    font-size: 50pt;
-}
-
-.header {
-    text-align: center;
-}
-
-.feedback {
-    float: left;
-}
-
-.information {
-    position: relative ;
-    float: right;
-    padding: 15px ;
-    
-}
-
-p{
-    color: teal;
-    font-size: 24pt;
-}
-
-h2 {
-    color: grey;
-    
+.caption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 38%;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: .1rem .1rem .5rem black;
 }

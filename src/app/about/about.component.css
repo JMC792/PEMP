@@ -1,49 +1,13 @@
-body {
-    background-image: url(/assets/img/who-we-are.png);
+.caption {
+    width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 38%;
+	z-index: 1;
+	color:white;
+    text-transform: uppercase;
+    font-size: 3.8rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
 }
-
-.about {
-    text-align: center;
-    font-size: 24pt;
-    color: purple;
-}
-
-#vision {
-    text-align: left;
-    font-size: 24pt ;
-    background-color: purple; 
-    padding: 3em ;
-    outline: 2px solid #31b8d4;
-    outline-offset: -2em;
-    position: realtive;
-    color : white ;
-    width: 600px ;
-    top: 200px;
-}
-
-#start {
-    text-align: right;
-    font-size: 24pt ;
-    background-color: teal;
-    padding: 3em;
-    outline: 2px solid;
-    outline-color: purple;
-    outline-offset: -2em;
-    position: relative;
-    width: 600px;
-    top: 100px;
-    left: 600px;
-    
-    
-}
-
-#team {
-    text-align: left ;
-}
-
-
-h3 {
-    color: teal;
-    
-}
-

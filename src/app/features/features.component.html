@@ -1,11 +1,29 @@
-<body>
-  <h1 class="display-1">Lets get started</h1>
 
-  <h1 class="display-2">Answer the Following questions</h1>
+  
+  <img src="assets/img/macbook2.jpeg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+  
+  <div class="container-fluid">
+      <div class= "caption text-center">
+          <h1 class="display-4">LETS GET YOU FINANCIAL INDEPENDENCE</h1>
+        </div>    
+  </div>
+
+
+  <div [ngStyle]="{'background-image': 'url(' + macbook.jpg + ')'}"></div>
+
+  <!-- Title heading -->
+  <h1 class="display-4">Lets get started</h1>
+
+  <!-- Title 2 heading -->
+  <h1 class="display-4">Answer the Following questions</h1>
 
   <form>
+    
     <div class="form-row">
-      <div class="form-group col-md-6">
+
+      <!-- Email form group -->
+      <div class="text center form-group col-md-6">
+        <label for="inputName"></label>
         <label for="inputEmail4">Email</label>
         <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
       </div>
@@ -14,19 +32,27 @@
         <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
       </div>
     </div>
+
+    <!-- Adress Form -->
     <div class="form-group">
       <label for="inputAddress">Address</label>
       <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
     </div>
+    
+    <!-- Address 2 Form Group -->
     <div class="form-group">
       <label for="inputAddress2">Address 2</label>
       <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
     </div>
+    
+    <!-- City Form row -->
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="inputCity">City</label>
         <input type="text" class="form-control" id="inputCity">
       </div>
+
+      <!-- State form  -->
       <div class="form-group col-md-4">
         <label for="inputState">State</label>
         <select id="inputState" class="form-control">
@@ -34,11 +60,15 @@
           <option>...</option>
         </select>
       </div>
+
+      <!-- zipcode form -->
       <div class="form-group col-md-2">
         <label for="inputZip">Zip</label>
         <input type="text" class="form-control" id="inputZip">
       </div>
     </div>
+
+    <!-- Terms and conditions Form Group -->
     <div class="form-group">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -47,7 +77,8 @@
         </label>
       </div>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
 
-</body>
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+  </form>
