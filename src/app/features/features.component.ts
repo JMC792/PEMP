@@ -9,6 +9,10 @@ export class FeaturesComponent implements OnInit {
 
   constructor() { }
 
+  onSubmit (){
+    
+  }
+
   ngOnInit() {
   }
 

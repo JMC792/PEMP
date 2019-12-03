@@ -10,6 +10,8 @@ import { ConnectComponent } from './connect/connect.component';
 import { FeaturesComponent } from './features/features.component';
 import { MortgageComponent } from './features/mortgage/mortgage.component';
 import { FooterComponent } from './footer/footer.component';
+import { PostCreateComponent } from './posts/post-create/post-create.component';
+import { PostListComponent } from './posts/post-list/post-list.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { FooterComponent } from './footer/footer.component';
     ConnectComponent,
     FeaturesComponent,
     MortgageComponent,
-    FooterComponent
+    FooterComponent,
+    PostCreateComponent,
+    PostListComponent,
   ],
   imports: [
     BrowserModule,
